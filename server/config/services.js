@@ -53,7 +53,8 @@ module.exports = {
   },
   service3: {
     api: '/relatedProducts/all',
-    url: 'http://54.218.104.146:3003',
+    // url: 'http://localhost:3003',
+    url: 'http://34.201.73.214:3003/',
     bundle: 'bundle.js',
   },
   service4: {
@@ -76,6 +77,5 @@ Dylan: (note that his route wasn't prefixed with /api)
 
 Joe:
 /products/:id/reviews
-
 
 */
